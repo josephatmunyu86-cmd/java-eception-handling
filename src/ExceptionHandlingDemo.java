@@ -3,5 +3,10 @@ public class ExceptionHandlingDemo {
         int totalBill = 50000;
         int numberOfPeople = 0;
 
+        try {
+        } catch (ArithmeticException e) {
+
+        }
+
     }
 }
