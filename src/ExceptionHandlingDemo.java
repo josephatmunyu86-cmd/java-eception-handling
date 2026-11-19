@@ -10,7 +10,7 @@ public class ExceptionHandlingDemo {
             System.out.println("Error: You cannot divide the bill by zero people.");
             System.out.println("Reason: " + e.getMessage());
         }finally {
-            System.out.println("Calculation attempt finished.");
+            System.out.println("Thank you for using our bill-sharing program.");
 
         }
 
