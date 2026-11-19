@@ -9,6 +9,9 @@ public class ExceptionHandlingDemo {
         } catch (ArithmeticException e) {
             System.out.println("Error: You cannot divide the bill by zero people.");
             System.out.println("Reason: " + e.getMessage());
+        }finally {
+            System.out.println("Calculation attempt finished.");
+
         }
 
     }
