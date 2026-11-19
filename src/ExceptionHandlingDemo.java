@@ -7,7 +7,7 @@ public class ExceptionHandlingDemo {
             int share = totalBill / numberOfPeople;
             System.out.println("Each person should pay: UGX " + share);
         } catch (ArithmeticException e) {
-
+            System.out.println("Error: You cannot divide the bill by zero people.");
         }
 
     }
